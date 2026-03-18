@@ -6,14 +6,17 @@ public class Exercicio02 {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Escreva dois números inteiros para somá-los");
+        System.out.println("Este programa soma os números digitados");
 
-        Integer num1 = sc.nextInt();
-        Integer num2 = sc.nextInt();
+        int num1 = sc.nextInt();
+        int num2 = sc.nextInt();
 
         int soma = num1 + num2;
 
         System.out.println("SOMA = " + soma);
+        sc.close();
+
+
 
     }
 }
