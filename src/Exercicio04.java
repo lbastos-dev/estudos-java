@@ -13,9 +13,9 @@ public class Exercicio04 {
         c = sc.nextInt();
         d = sc.nextInt();
 
-        int diferenca = ((a * b) - (c * d));
+        int difference = ((a * b) - (c * d));
 
-        System.out.println("DIFERENÇA = " + diferenca);
+        System.out.println("DIFFERENCE = " + difference);
         sc.close();
 
 
