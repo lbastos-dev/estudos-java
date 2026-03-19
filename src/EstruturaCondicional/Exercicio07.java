@@ -22,6 +22,5 @@ public class Exercicio07 {
         } else if (X < 0 && Y > 0) {
             System.out.println("Q2");
         }
-
     }
 }
